@@ -1,0 +1,42 @@
+Improving and Innovating Products
+ 
+Product ask for insignts... pull...  data build feature...lanunch /abtest .. measure sucess
+problems 
+Investigating Metrics:  Why is feature x dropping by y percent
+Measuring Product Success:  analyzing the success of released features
+Feature Change: Let’s say we want to add/change/improve a new feature to product X
+Metric Trade-offs: comments are down by 10% but reactions are up by 15%
+want to grow metric: We want to grow x metric on y feature
+
+Before interview: product research  understanding their product from a business perspective
+General Framework: 
+1. Clarifying the Question (goals,backkground)
+2. Make Assumptions (narrow the scope)
+3. Analyze User Flows (how the product works,different users)
+4. Define Hypothesis (root cause of the issue)
+5. Draw Metrics to Support your Hypothesis
+6. Tie Your Analysis to the Product Goals (tie analysis back to the product goals)
+7. Remember to talk out loud
+
+
+Investigating Metrics: If X metric is up/down by Y percent, how would you investigate it?
+General Framework: Clarification)(def), Gather Context (cut the data), Hypothesize for Probable Causes, Validation(solution)
+                   MECE framework: breaking a problem down by creating a decision tree for issues and hypotheses
+e.g. Friend Request Example (Friend Request -10%, inestigate)
+          1 clarification: time frame:one time/recurance  seasonality   
+                           external factor:  competitor launching
+                           internal factor: bugs,feature release
+                           metric definition
+          2  Gathe Context: time frame? entire website traffic? feature release? 
+          3 Hyphothesizing and Evaluation: e.g.new users be the ones making the most friend requests
+                user(join date, Age, Sex, Location, Organic, Paid, Content,Geography,Platform )
+                activity(tpt vs active,DAU, WAU, MAU,New vs Existing,User feature attribution,time spent,  DAU / MAU or WAU / MAU )
+                Marketplace/Feature Attributes(e.g. Friend requests acceptance rate going down, Friend requests taking longer to be accepted, 
+                                                    bugs,New feature cannibalizing the existing feature)
+                                                    
+                                                    
+                 use flows (funnels):  users eventually get to friend requests by: ppl know, friends of friends, event attend users, tagged pictures
+                              others: Emails that get clicked through, Organic search vs paid channels vs blogs, Other features on the platform
+                 
+                 bugs
+                

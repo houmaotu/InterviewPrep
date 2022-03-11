@@ -1,0 +1,22 @@
+types of questions:
+Modeling Case Study:  evaluate and explain a particular part of the model building process
+Recommendation and Search Engines
+Machine Learning Algorithm Concepts
+
+Applied Modeling:  take machine learning concepts and ask how they could be applied to fix a certain problem
+              Data Exploration & Pre-Processing
+              Feature Selection & Engineering
+              Model Selection
+              Cross Validation
+              Evaluation Metrics
+              Testing and Roll Out
+      Framework:
+      Clarification(why this model, what's the use,how affwct bisuness, what matters accuracy?)
+      Make Assumptions
+      Define Priorities (build new/exist, user behavior, data set)
+      Go through the modeling lifecycle
+      
+      Pre-Processing:   Outliers / Class Imbalance / Skewed Data / Missing Data
+      Feature Selection: selecting good features /Variable Transformation /PCA /BINNING
+              
+             

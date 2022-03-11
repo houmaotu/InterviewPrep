@@ -3,7 +3,7 @@ Modeling Case Study:  evaluate and explain a particular part of the model buildi
 Recommendation and Search Engines
 Machine Learning Algorithm Concepts
 
-Applied Modeling:  take machine learning concepts and ask how they could be applied to fix a certain problem
+Model Case Study:  take machine learning concepts and ask how they could be applied to fix a certain problem
               Data Exploration & Pre-Processing
               Feature Selection & Engineering
               Model Selection
@@ -18,5 +18,13 @@ Applied Modeling:  take machine learning concepts and ask how they could be appl
       
       Pre-Processing:   Outliers / Class Imbalance / Skewed Data / Missing Data
       Feature Selection: selecting good features /Variable Transformation /PCA /BINNING
+      Model Selection: Explainability(knn, lm, trees)
+                       Number of Features and Data Points (fewer option for small sets)
+                       Categorical vs. Numerical Feature
+                       Linearity
+                       Training Speed
+                       Prediction Speed and Performance
+                       
+                       
               
              

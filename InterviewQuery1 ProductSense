@@ -39,4 +39,33 @@ e.g. Friend Request Example (Friend Request -10%, inestigate)
                               others: Emails that get clicked through, Organic search vs paid channels vs blogs, Other features on the platform
                  
                  bugs
+          4 Evaluation and Validation:  visualizing
+          
+          
+          sample answer:
+                    geography-based external event? new users?customer journeys,scrolling rather than sent request? Bug? feature changes?  User activity DAU?
+          tips:
+                 Avoid going too deep into one section
+           
                 
+ Fractional metrics: similar to  Investigating Metrics e.g. Looking at the metrics of the job board, you notice that the 
+                                                            number of applicants per job has been decreasing   
+                      metric is A/B frmework is the same
+                      
+                      
+ Measuring Success:  e.g. How do you measure success for Facebook Events   
+             Framework: clarify, product goals, define metrics, test hypothesis, Correlate behavior
+            e.g. sucess n fb events:
+            clarify: What is the product/feature?cpmpany mission? How do product work? Who are users?
+            product goals: why does this product/feature exist for the company? Goals? who uses?  
+                         How does the product/feature help the business? 
+            define metrics:  objects: attendees, events, and hosts...
+                             How the Product Works: create an event with a date, description, and public or private permission
+                             User journey Flows:
+                                 Acquisition:  Attendees/Hosts
+                                 Funnels and Conversion: how are the users converting into the product or feature?
+                                                         What is the drop-off in each step of the funnel
+                                 Product Engagement: what users do once they’ve seen an event or created an event
+                             List Top Level Metrics: engagement, revenue, or growth:
+                                           #events invited RVSP 
+                             Test Hypothesis: Tie metrics back to our product goals, Prioritize which metrics we track

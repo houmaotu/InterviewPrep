@@ -37,9 +37,9 @@ Model Case Study:  take machine learning concepts and ask how they could be appl
                                          xgboost: tree grow depth wise, lightgbm: tree grow leafwise
                                          xg boost: fi trees that min loss+prnality, use 2nd term in tyler
                                          pro and con: easy-to-read and interpret algorithm, sensitive to outliers
-               encode
+               encode： freq one hot, split into buckets, target encode (replace by mean response), conditional probability, 
 
 
-                       
+Recommendation and search engines: (info filter)                       
               
              

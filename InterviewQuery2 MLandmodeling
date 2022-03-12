@@ -40,6 +40,15 @@ Model Case Study:  take machine learning concepts and ask how they could be appl
                encode： freq one hot, split into buckets, target encode (replace by mean response), conditional probability, 
 
 
-Recommendation and search engines: (info filter)                       
-              
+Model Eval: 
+              Cross Validation: train vs test, k fold, LOOCV
+              Evaluation Metrics: Accuracy, Precision, Recall, ROC AUC, PR AUC, AIC
+              Testing: set up baseline, Backtesting and validation, AB Testing Roll Out
              
+Applied modeling:  scenario-based question
+
+System Design:
+              Problem statement, Identify metrics, Identify requirements, Train and evaluate model, Design high level system, Scale the design
+              fewtures: one hot, feature hashing, Crossed features (conjunction), Embedding, Numeric features(normalization, scale)
+              Training Pipeline...Inference...Metrics Evaluation(online, offline)
+              skipped the rest...

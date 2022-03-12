@@ -25,6 +25,21 @@ Model Case Study:  take machine learning concepts and ask how they could be appl
                        Training Speed
                        Prediction Speed and Performance
                        
+ ML algorithm: def, eplain, difference, assumption, tuning, pro and cons, proformance, speed ...
+               cheatsheets: regression, logictic regression, MLE, gradient descent, sgd, batch gd, regularization
+                            decision tree (eduction in RSS,impurity measure, gini, entrophe)
+                            rf（correlated features： set fraction small, fail to identify strong predictor
+                                feature importances： information gain，what kind of models for bagging: high var,low bias
+                                OOB err: predicstion with dt not use x_i,y_i OOB score: dataset small）
+                            boost trees: ada boost: stump, err, another stump ..
+                                         gradient boost: leaf, err, leaf (8 ~ 32), err, leaf... (fit the residual, grad of loss)
+                                         gb regularization: M: numder of trees, learning rate, stohastic, pruning and punish #leaves
+                                         xgboost: tree grow depth wise, lightgbm: tree grow leafwise
+                                         xg boost: fi trees that min loss+prnality, use 2nd term in tyler
+                                         pro and con: easy-to-read and interpret algorithm, sensitive to outliers
+               encode
+
+
                        
               
              

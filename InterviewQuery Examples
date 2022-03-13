@@ -1,1 +1,54 @@
+eg1. Ride Requests Model, predict if a driver on Uber will accept a ride request or not
+         driver info: no / some / full info
+         
+         feature
+         driver: end, existing, distance to rider, ratings, accept rate .. 
+         trip: trip time, time of day, distance, revenue
+         rider: tarings, location 
+         vehical: model ...
+         other: trafic, special events
 
+        general missing data： profile cluster (age) and impute.
+        
+        model: classification accept/not
+             logictic regression as a start
+             trim features, decition trees esemle, xg boost
+             
+             label: (ground truth exist)
+                   driver yes, no times out, sent to others ... 
+         different models and abtest
+         
+         
+  eg2 build fb newsfeed and rank:
+      1 ans
+      objective
+          goal : personalize feed
+          optimize egmagement
+          feed - 10 things ...  rank(1,2,....)
+      expected engagement metric: likes, comments, time, clicks...time using session
+             (assume such exists)
+      prolem:
+           for feed ,estimate expected engagement
+           how to model and how to use model
+           
+         how to use model: sorting feeds based on expected engagement, combined, balance video/picture ..
+         
+         model: expected engagement
+         frature: user: location, timeseris last week.month, actibvity, ...
+                        needs a lot for colaberativ filtering
+                        
+         how to choose: rf/xgboost get general meaning fast NN/ranking
+         
+         test: AB test: find similar users and non overlapping ... 
+         
+         engagement metric: user come back inc rese retention, growth, get friends, ... 
+                            
+          2 ans balance public/pribite personalize ...    
+              user engagement, list of info, run ab test
+              
+              freq user ..  interaction, profit, .. (feed -> profit) regressions based
+              
+  eg3.   restaurant recommender
+       
+      
+        

@@ -1,0 +1,19 @@
+python read
+# 读取字符串格式输入
+a = input()
+# 或者看情况将其划分，如根据逗号
+# a = input().split(",")
+
+li = []
+try：
+    while True:
+        line = input()
+        if line ==''
+            break
+        lines = line.split()
+        #转为整型list
+        lines = list(map(int, lines))
+        # 将lines列表作为元素存入li列表
+        li.append(lines)
+except:
+    pass

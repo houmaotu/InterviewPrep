@@ -17,3 +17,30 @@ try：
         li.append(lines)
 except:
     pass
+  
+  
+ https://www.cnblogs.com/Allen-rg/p/13922965.html   
+ 
+ 
+ 输入包括两个正整数a,b(1 <= a, b <= 1000),输入数据包括多组。
+ 输出a+b的结果
+ 
+#include <iostream>
+using namespace std;
+int main(){
+	int num1,num2;
+    while(cin>>num1>>num2){
+        cout<<num1 + num2<<endl;
+    }
+    return 0;
+}
+
+
+try:
+    while(True):
+        line = input()
+        n1,n2 = line.split()
+        n1,n2 = int(n1),int(n2)
+        print(n1 + n2)
+except:
+    pass

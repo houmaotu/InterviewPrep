@@ -1,0 +1,54 @@
+1 unif的r，l次序统计量的corr sqrt( r(1+n-s) / (l+n-r)s ) 直接通过联合分布
+2 unif和超过1需要N个 N的期望  n个和不超过1的概率为1/n! （n维方体一角）因此P（N > n） = 1/(n!)
+       E(N) = sum(P(N>=n)) = e
+3 #include <stdio.h>
+
+union {
+    int i;
+    char X[2];
+} mys;
+
+int main()
+{
+    //mys.X[0] = 10;
+    mys.X[1] = 1;
+    printf("%d", mys.i);
+    return 0;
+}
+
+输出266 union 用一个地址 因此是10 + 256
+
+4
+x = 10
+def foo():
+    x += 1
+    return x
+print(foo())     报错x local的 没定义
+
+5
+a = [1] * 3
+b = [a] * 2
+b[0][0] = 0
+ b 是 [[0, 1, 1], [0, 1, 1]] deep改变
+ 
+ 6
+ a = 1,
+b = 2,
+c = 3
+a + b + c
+
+报错 a，b是tuple c是int
+
+6 分词方法 crf （随机向量场） lstm cnn lm（language model N-gram一类）
+  tdnn attention con2d 可以下采样 lstm 不可以   不确定答案
+7 简单路径 点不重复 （起点终点可以一样）
+
+8 KMP算法 字符串匹配  dijkstra算法 最短路径 Kruskal，drim 最小生成树
+
+9 N个矩形的并的顶点 思路： 扫描 然后可疑的点判断在其四个方向是是否都有东西 或者都没有东西
+
+10将为 LDA PCA SVD autoencoder
+
+11 查准率（Precision）就是你认为是对的样例中，到底有多少真是对的。 查全率（Recall）就是所有对的样例，你找出了多少，或者说你判断对了多少
+
+12 pcpt两层 可以xor
